@@ -8,6 +8,6 @@ int gcd(int a, int b) {
              return gcd(a - b, b);
         else {
              return gcd(a, b - a);
-             }
-         }
+        }
+    }
 }

@@ -3,11 +3,9 @@
 int gcd(int a, int b) {
     if (a == b)
         return a;
-    else {
+    else 
         if (a > b)
              return gcd(a - b, b);
-        else {
+        else 
              return gcd(a, b - a);
-        }
-    }
 }
